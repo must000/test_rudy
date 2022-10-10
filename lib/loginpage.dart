@@ -41,6 +41,7 @@ class _LoginPageState extends State<LoginPage> {
                     decoration: const InputDecoration(label: Text("Password")),
                   ),
                 ),
+                //username = admin password = password123
                 ElevatedButton(
                     onPressed: () {
                       provider.login(usernameController.text,

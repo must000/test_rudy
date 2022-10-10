@@ -4,7 +4,8 @@ import 'package:test_rudy/homePage.dart';
 
 class HomeProvider with ChangeNotifier {
   List<String> nameCustomer = ["test1", "test2", "test3"];
-
+  
+  //username = admin password = password123
   login(String username, String password, BuildContext context) async {
     showDialog(
       context: context,
