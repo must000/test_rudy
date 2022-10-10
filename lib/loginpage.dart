@@ -29,6 +29,7 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                Text("admin password123"),
                 Container(
                   child: TextFormField(
                     controller: usernameController,
